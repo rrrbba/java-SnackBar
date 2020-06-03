@@ -51,6 +51,9 @@ public class Snack {
     public void addQuantity(int quantityAdded){
         this.quantity = this.quantity + quantityAdded;
     }
+    public void reduceQuantity(int quantityReduce){
+        this.quantity = this.quantity - quantityReduce;
+    }
     public void setCost(double cost){
         this.cost = cost;
     }

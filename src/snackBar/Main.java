@@ -3,7 +3,18 @@ package snackBar;
 
 public class Main {
 
-    public static void main(String[] args) {
+    private static void opensnackBar()
+    {
         System.out.println("Test");
     }
+
+
+
+
+
+
+    public static void main(String[] args){
+        opensnackBar();
+    }
+
 }
