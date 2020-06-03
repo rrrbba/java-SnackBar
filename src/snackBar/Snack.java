@@ -37,6 +37,9 @@ public class Snack {
     public int getVendingId(){
         return vendingId;
     }
+    public double getTotalCost(){
+        return quantity * cost;
+    }
 
     //Setter methods
     public void setName(String name){
@@ -44,6 +47,9 @@ public class Snack {
     }
     public void setQuantity(int quantity){
         this.quantity = quantity;
+    }
+    public void addQuantity(int quantityAdded){
+        this.quantity = this.quantity + quantityAdded;
     }
     public void setCost(double cost){
         this.cost = cost;
